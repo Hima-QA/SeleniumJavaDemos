@@ -23,7 +23,7 @@ public class ApplitoolHelloDemo {
 		driver = new ChromeDriver();
 		
 		Eyes eye = new Eyes();
-		eye.setApiKey("qCcM71U0yRVC40whIsvO4EyRU1XIz111ONOU9iB9ZVI00110");
+		eye.setApiKey("********************************************");
 		try {
 			
 			//Start the test and set the browser viewport size to 800,600 
