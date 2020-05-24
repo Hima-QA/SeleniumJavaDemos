@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+
+			<groups>
+				<run>
+					<include name="WillTakeAllTests"></include>
+				</run>
+				
+					<!-- Commented Regular exp
+					<run>
+						<include name="windows.*"></include>
+					</run>
+				-->
+				
+				<!-- Commented MetaGroup
+				<define name="Group1Reg">
+					<include name="regression"></include>
+					<include name="smoke"></include>
+				</define>
+				<run>
+					<include name="Group1Reg"></include>
+				</run>
+				-->
+			</groups>
+			
+		
+
+
+		<classes>
+			<class name="testpackage.TestNg_GroupingDemo" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
